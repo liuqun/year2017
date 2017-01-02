@@ -15,7 +15,7 @@ data= json.dumps(post_data)
 response= requests.post(
 		url,
 		auth= (username, password),
-		data,
+		data= data,
 	)
 print("", response.text)
 print("")
