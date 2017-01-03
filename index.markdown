@@ -8,3 +8,4 @@ In year 2017, the following things are marked to be done:
 ## Basic skills to learn and related books to read
 - Software testing / test-designing <br /> related books: 《测试之美》《Android与iOS应用测试指南》《软测之魂》
 - Software modeling for customer's business work flow <br /> related book(s): 《系统分析师UML用例实践》
+<iframe class="video_iframe" style="z-index:1;" height="375" width="500" frameborder="0" data-src="https://v.qq.com/iframe/preview.html?vid=l016458qvdp&amp;width=500&amp;height=375&amp;auto=0" allowfullscreen=""></ iframe>
