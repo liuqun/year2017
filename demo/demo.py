@@ -19,7 +19,13 @@ response= requests.post(
 	)
 print("", response.text)
 print("")
-print("Your OAuth token is", response.json()['token'])
+msg= response.json()['message']
+if msg.startswith("Bad credentials") :
+	print("Bad credentials")
+elif msg.startswith("Validation Failed") :
+	print("Validation Failed")
+else :
+	print("Your OAuth token is", response.json()['token'])
 
 # Go to https://github.com/settings/applications to revoke this token
 
